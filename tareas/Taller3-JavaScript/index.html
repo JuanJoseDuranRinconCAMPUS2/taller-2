@@ -10,23 +10,50 @@
 <body>
     <fieldset>
         <legend>datos de contacto de las sedes de CAMPUS</legend>
+        <h4>Ingresa la sede a registrar</h4>
         <form id="myFormularioCampus">
             <input type="text" name="nombreSede" placeholder="nombre de la sede"><br><br>
             <input type="submit" value="Guardar">
         </form>
     </fieldset>
     <fieldset>
-        <legend>Datos de los campers del  CAMPUS</legend>
+        <legend>Datos de los Usuarios del  CAMPUS</legend>
         <form id="myFormularioCampers">
             <select name="sede"></select><br><br>
             <select name="Rol">
                 <option value="trainer">Trainer</option>
                 <option value="camper">Camper</option>
             </select><br><br>
-            <input type="text" name="nombre" placeholder="Ingrese el nombre del camper"><br><br>
-            <input type="tel" name="telefono" placeholder="Ingrese el telefono del camper"><br><br>
-            <input type="text" name="Tean" placeholder="Ingrese el Team que pertenece el camper"><br><br>
-            <input type="tel" name="telefono" placeholder="Ingrese el telefono del camper"><br><br
+            <input type="text" name="nombre" placeholder="Ingrese el nombre del usuario"><br><br>
+            <input type="tel" name="telefono" placeholder="Ingrese el telefono del usuario"><br><br>
+            <select name="Teams">
+                <option value="Team1">Team1</option>
+                <option value="Team2">Team2</option>
+                <option value="Team3">Team3</option>
+                <option value="Team4">Team4</option>
+
+            </select><br><br>
+            <input type="email" name="Correo" placeholder="Ingrese el correo del usuario"><br><br>
+            <input type="date" name="Dia" placeholder="ingresa el dia de la classe"><br><br>
+            <input type="time" name="HoraInicio" placeholder="Ingresa la hora inicial de la clase"><br><br>
+            <input type="time" name="HoraFinal" placeholder="Ingresa la hora de finalizacion de la clase"><br><br>
+            <input type="text" name="Salon" placeholder="Ingrese el Salon del usuario"><br><br>
+            <input type="text" name="Piso" placeholder="Ingrese el piso del usuario"><br><br>
+            <input type="submit" value="Guardar">
+        </form>
+    </fieldset>
+    <fieldset>
+        <legend>Horarios de Preparacion</legend>
+        <h3>Selecciona la clase y su repectivo horario</h3>
+        <form id="myFormularioHoras">
+            <select name="clase">
+            </select><br><br>
+            <select name="sede1"></select>
+            <input type="date" name="Dia" placeholder="ingresa el dia de la classe"><br><br>
+            <input type="time" name="HoraInicio" placeholder="Ingresa la hora inicial de la clase"><br><br>
+            <input type="time" name="HoraFinal" placeholder="Ingresa la hora de finalizacion de la clase"><br><br>
+            <input type="text" name="Salon" placeholder="Ingrese el Salon del usuario"><br><br>
+            <input type="text" name="Piso" placeholder="Ingrese el piso del usuario"><br><br>
             <input type="submit" value="Guardar">
         </form>
     </fieldset>
