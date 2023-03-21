@@ -26,7 +26,7 @@ function Menu(){
         \t \n 16. Restar Elementos de un Array
         \t \n 17. Sacar Elemento Mayor de un Array
         \t \n 18. Sacar Elemento Menor de un Array
-        \t \n 0. Salor
+        \t \n 0. Salir
         `
     );
 };
