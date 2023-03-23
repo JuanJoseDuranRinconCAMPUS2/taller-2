@@ -1,16 +1,16 @@
 export default {
     title: {
             name : "Skillet",
-            href : "#https://es.wikipedia.org/wiki/Skillet_(%C3%A1lbum)"
+            href : "https://es.wikipedia.org/wiki/Skillet_(%C3%A1lbum)"
     },
     ALBUMS : [
         {
             name : "Skillet",
-            href : "#https://es.wikipedia.org/wiki/Skillet_(%C3%A1lbum)"
+            href : "https://es.wikipedia.org/wiki/Skillet_(%C3%A1lbum)"
         },
         {
             name : "Hey You, I Love Your Soul",
-            href : "#https://es.wikipedia.org/wiki/Hey_You,_I_Love_Your_Soul"
+            href : "https://es.wikipedia.org/wiki/Hey_You,_I_Love_Your_Soul"
         },
         {
             name : "Invincible",
@@ -52,7 +52,7 @@ export default {
     listTitle(){
         document.querySelector("#title").insertAdjacentHTML("beforeend", 
         `
-        <a class="blog-header-logo text-dark" href="${this.title}" >${this.title.name}</a>
+        <a class="blog-header-logo text-dark" href="${this.title.href}" >${this.title.name}</a>
         
         `
         )
